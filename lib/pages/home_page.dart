@@ -96,7 +96,7 @@ class _HomePageBodyState extends State<HomePageBody> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         PTElevatedButton(
-          caption: user == null ? 'Sign In with Firebase' : 'View Profile',
+          caption: user == null ? 'Sign In with Firbase' : 'View Profile',
           onPressed: () => user == null ? Navigator.push(context, quizSignInRoute) : Navigator.push(context, quizProfileRoute),
         ),
         const _TextSeparator(),
